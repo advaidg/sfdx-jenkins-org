@@ -18,7 +18,7 @@ node {
     // -------------------------------------------------------------------------
 
     stage('checkout source') {
-        checkout scm
+       git 'https://github.com/advaidg/sfdx-jenkins-org.git'
     }
 
 
